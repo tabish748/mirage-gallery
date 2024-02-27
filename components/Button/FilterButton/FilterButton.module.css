@@ -1,0 +1,17 @@
+.root {
+  @apply inline-flex items-center justify-center;
+  @apply text-sm; 
+  @apply px-5 py-2 h-10 rounded-full;
+  @apply bg-white bg-opacity-90 text-black;
+  @apply border outline-none;
+  @apply cursor-pointer;
+  @apply duration-100;
+  @apply ring-0 ring-gray-800;
+  @apply hover:bg-gray-900 hover:text-white hover:ring-2 hover:ring-white;
+  @apply focus:ring-2 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2;
+  @apply print:hidden print:bg-gray-200 print:text-gray-900 !important;
+}
+
+.active {
+  @apply bg-black text-white;
+}

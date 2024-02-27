@@ -1,0 +1,88 @@
+.gallery {
+  @apply grid md:grid-cols-2 lg:grid-cols-4 max-w-screen-2xl w-full  mx-auto gap-9;
+}
+
+.drop {
+  @apply relative w-full h-full overflow-hidden flex items-center justify-center;
+}
+
+.drop img {
+  @apply object-cover aspect-square lg:aspect-auto w-full h-[110%];
+}
+
+.drop:nth-child(1) {
+  @apply lg:col-span-2 h-[280px];
+}
+
+.drop:nth-child(2) {
+  @apply lg:col-span-2 h-[280px];
+}
+
+.drop:nth-child(3) {
+ @apply  h-[560px]
+}
+
+.drop:nth-child(4) {
+  @apply lg:col-span-3 h-[560px];
+}
+
+.drop:nth-child(5) {
+  @apply row-span-2;
+}
+
+.drop:nth-child(6) {
+  @apply row-span-2;
+}
+
+.drop:nth-child(7) {
+  @apply row-span-2 lg:col-span-2;
+}
+
+.drop:nth-child(8) {
+  @apply lg:col-span-2 h-[560px];
+}
+
+.drop:nth-child(9) {
+  @apply h-[560px];
+}
+
+.drop:nth-child(10) {
+  @apply h-[560px];
+}
+
+.drop:nth-child(11) {
+  @apply lg:col-span-4 h-[560px];
+}
+
+.drop:nth-child(12) {
+  @apply lg:col-span-3  h-[560px];
+}
+
+.drop:nth-child(13) {
+  @apply w-full h-[560px];
+}
+
+.drop:nth-child(14) {
+  @apply lg:col-span-4 h-[560px];
+}
+
+.drop:nth-child(14) img {
+  @apply object-center;
+}
+
+.dropOverlay {
+  @apply absolute;
+  @apply inset-6;
+  @apply duration-300;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-between items-start;
+  @apply p-4;
+  @apply text-white;
+  @apply pointer-events-none;
+  @apply border-white/50 border-2;
+  @apply bg-gradient-to-b from-transparent to-black/70;
+  box-shadow: 0px 0px 60px 90px rgba(0,0,0,0.75), inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 60px 90px rgba(0,0,0,0.75), inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 60px 90px rgba(0,0,0,0.75), inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+}

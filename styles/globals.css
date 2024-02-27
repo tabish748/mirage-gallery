@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {-webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -o-font-smoothing: antialiased;}
+
+* {
+  @apply font-base;
+}
+
+.disabled {
+  @apply pointer-events-none cursor-default select-none opacity-20;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply bg-black w-12 h-12 rounded-full md:top-64 !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  @apply !text-sm text-white w-6 h-6 flex justify-center items-center;
+}
+
+.swiper-slide {
+  @apply max-w-7xl;
+}
+
+@media (min-width: 1600px) {
+  .swiper-slide {
+    @apply max-w-screen-2xl;
+  }
+}
+
+.swiper-slide img {
+  @apply w-full;
+}
+
+.slide-item-inview {
+  @apply opacity-0 duration-1000;
+}
+
+.swiper-slide-active .slide-item-inview {
+  @apply opacity-100;
+}
+
+.page-curated {
+  @apply hover:text-curated;
+}
+
+.page-curated.active {
+@apply text-curated underline;
+}
+
+.page-dreamers {
+  @apply hover:text-dreamers;
+}
+
+.page-dreamers.active {
+@apply text-dreamers underline;
+}
+
+.page-native {
+  @apply hover:text-native;
+}
+
+.page-native.active {
+@apply text-native underline;
+}
+
+.page-original {
+  @apply hover:text-original;
+}
+
+.page-original.active {
+@apply text-original underline;
+}
+
+.page-membership {
+  @apply hover:text-membership;
+}
+
+.page-membership.active {
+@apply text-membership underline;
+}

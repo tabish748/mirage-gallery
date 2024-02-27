@@ -1,0 +1,7 @@
+.title {
+  @apply text-black text-3xl md:text-5xl font-medium;
+}
+
+.subtitle {
+  @apply text-sm text-current font-bold;
+}

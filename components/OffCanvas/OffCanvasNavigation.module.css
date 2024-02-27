@@ -1,0 +1,6 @@
+.root {
+  @apply flex flex-col w-full p-0;
+}
+.link {
+  @apply p-3 my-1 text-sm font-light text-white cursor-pointer hover:bg-gray-900;
+}

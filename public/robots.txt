@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.miragegallery.ai
+
+# Sitemaps
+Sitemap: https://www.miragegallery.ai/sitemap.xml
