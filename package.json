@@ -64,7 +64,6 @@
     "lint-staged": "^13.2.3",
     "postcss": "^8.4.27",
     "prettier": "2.8.4",
-    "endOfLine": "auto",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.1.6"
   },
