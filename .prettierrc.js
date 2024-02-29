@@ -13,6 +13,7 @@ module.exports = {
   quoteProps: 'as-needed',
   requirePragma: false,
   semi: true,
+  endOfLine: 'auto',
   singleQuote: true,
   tabWidth: 2,
   trailingComma: 'es5',
