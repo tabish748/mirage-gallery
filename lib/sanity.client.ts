@@ -2,7 +2,7 @@ import { createClient } from 'next-sanity';
 import { config } from 'sanity.config';
 
 const token = process.env.NEXT_PUBLIC_SANITY_CREATE_TOKEN;
-console.log('NEXT_PUBLIC_SANITY_CREATE_TOKEN', token);
+
 export const sanityClient = createClient({
   // use same config as in studio
   ...config,
