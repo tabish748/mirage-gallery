@@ -25,6 +25,7 @@ export enum MintStatus {
 }
 
 export type Drop = {
+  created: any;
   _createdAt: string;
   _id: string;
   _updatedAt: string;
